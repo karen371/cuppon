@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;   
+    font-family: "Roboto", sans-serif; 
+}
+
+/* .raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+/*navbar*/
+#nav{
+    /* background-color: #28A745; */
+    font-weight: 300;
+}
+
+#nav img{
+    width: 86px;
+    height: 25px;
+}
+/*seccion de card*/
+#section-uno{    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* padding: 20px 0 20px 0; */
+}
+
+.card-mod{
+    width: 258pt !important;
+    height: 379pt !important;   
+    font-weight: 300;
+}
+
+.card-mod h5{
+    color: #212529;
+    font-weight: 300;
+    font-size: 19pt;
+
+}
+
+.card-mod ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-mod li{
+    color: #707070; 
+    border-bottom: none;
+}
+
+.card-mod li:nth-child(2){/*seudoselector el cual escoge a un elemente hijo */
+    font-weight: 500;
+    color: #28A745 !important;
+    font-size: 20pt;
+}
+
+.card-mod p, li{
+    color: #707070 !important;
+    font-size: 16pt;
+
+}
+.card-title{
+    height: 73pt;
+}
+.card-mod img{
+    width: 100%;
+    height: 180pt;
+}
+.card-body p{
+    font-weight: 300;
+    font-size: 16pt;
+    text-align: left;
+}
+.card-body hr{
+    margin-top:-5px ;
+    margin-bottom: 0;    
+    background-color: #707070A0;
+}
+.icon{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    color: #707070;
+}
+.icon p >i{ /*selector que seleciona todos los elementos <i> hijos de <p>*/
+    font-size: 11pt; 
+}
+.icon p{
+
+    font-size: 13pt;   
+}
+/*seccion de form*/
+#section-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    height: 268pt;
+    background-color: #28A745;
+    color: #ffffff;    
+}
+
+#section-dos  h3{
+    font-weight: 500;
+    font-size: 23px;
+}
+input::placeholder{ /*permite aplicar estilos dentro de placeholder*/
+    color: #707070 !important;
+}
+#btn {
+    background-color: #F8F9FA;
+    border-color:#F8F9FA;
+    color: #212529;
+    font-weight: 500;
+}
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 118pt;       
+}
+footer span{
+    height: 38pt;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #707070;
+}
+
+footer img{
+    width: 82pt;
+    height: 24pt;
+}
